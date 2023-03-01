@@ -1,0 +1,93 @@
+touch unFichier.txt
+ls
+cd ..
+ls
+ls unFichier.txt 
+ls
+echo vive moi
+man history
+man bash
+ls
+ls
+ls unFichier.txt 
+ls
+ls un*
+ls unFichier.txt 
+cp unFichier.txt unAutreNomDeFichier.txt
+ls
+mkdir Un
+cd Un
+ls
+ls -l
+ls -al
+id
+ls -l
+cd 
+rm -f un*
+ls
+pwd
+ls
+touch photo.jpg
+ls
+cd ..
+ls
+ls unFichier.txt 
+ls
+echo vive toi
+man history
+man bash
+ls
+ls
+ls unFichier.txt 
+ls
+ls un*
+ls unFichier.txt 
+cp unFichier.txt unAutreNomDeFichier.txt
+ls
+ll
+ls -l
+ls -al
+id
+ls -l
+cd 
+rm ceci*
+ls
+cd Images/
+pwd
+ls
+touch photo.jpg
+ls
+cd ..
+ls
+echo vive nous
+man history
+man bash
+ls
+ls ceci*
+ls unFichier.txt 
+cp unFichier.txt unAutreNomDeFichier.txt
+cd ../Deux
+ls
+mkdir Images
+cd Images
+ls
+ll
+ls -l
+ls -al
+id
+ls -l
+cd 
+rm un*
+ls
+ls
+cd Images/
+pwd
+ls
+touch unFichier.txt
+ls
+cd ..
+cd 
+ls
+cd ..
+pwd
+echo *

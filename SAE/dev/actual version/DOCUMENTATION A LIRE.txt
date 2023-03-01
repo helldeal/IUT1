@@ -1,0 +1,9 @@
+Commande:
+
+ZQSD : déplacement du Spawn
+
+ECHAP : Affichage menu de configuration
+
+Flèches directionnelles : Naviguer dans le menu
+
+POUR CHANGER DE CONFIG : Clicker sur les fleches 

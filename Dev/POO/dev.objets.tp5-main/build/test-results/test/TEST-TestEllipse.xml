@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestEllipse" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-03-15T10:13:45" hostname="U-INF-J-E114-08" time="0.208">
+  <properties/>
+  <testcase name="Rectangle verif()" classname="TestEllipse" time="0.131"/>
+  <testcase name="FormeGeo verif 1()" classname="TestEllipse" time="0.067"/>
+  <testcase name="FormeGeo verif 2()" classname="TestEllipse" time="0.001"/>
+  <testcase name="Deplacable verif 3()" classname="TestEllipse" time="0.0"/>
+  <testcase name="Forme Geo 4()" classname="TestEllipse" time="0.002"/>
+  <testcase name="ObjetPositionnable verif 2()" classname="TestEllipse" time="0.0"/>
+  <testcase name="ObjetPositionnable verif 3()" classname="TestEllipse" time="0.0"/>
+  <testcase name="ObjetPositionnable verif 4()" classname="TestEllipse" time="0.0"/>
+  <testcase name="ObjetPositionnable verif 5()" classname="TestEllipse" time="0.001"/>
+  <testcase name="ObjetPositionnable verif 6()" classname="TestEllipse" time="0.001"/>
+  <testcase name="dessiner()" classname="TestEllipse" time="0.001"/>
+  <testcase name="Rectangle 4()" classname="TestEllipse" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

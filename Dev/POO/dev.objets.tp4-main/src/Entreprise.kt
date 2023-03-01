@@ -1,0 +1,3 @@
+class Entreprise  {
+    // TODO
+}

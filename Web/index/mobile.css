@@ -1,0 +1,129 @@
+@media screen and (max-width: 500px){
+/*-----------------------------------Header--------------------------------------------------*/
+    .hiddenmobile{
+        display: none;
+    }
+    .contenttopmenu{
+        justify-content: center;
+    }
+    .topmenu{
+        height: 49px;
+    }
+/*-----------------------------------About me--------------------------------------------------*/
+    .thead{
+        padding-top: 35px;
+    }
+    .tshead{
+        padding-bottom: 60px;
+    }
+    .boxPM{
+        padding-bottom: 90px;
+    }
+/*-----------------------------------Intro--------------------------------------------------*/
+    .tintro{
+        text-align: left;
+        padding-top: 104px;
+        padding-bottom: 28px;
+        padding-right: 20px;
+        padding-left: 28px;
+    }
+    .tsintro{
+        text-align: left;
+        padding-bottom: 103px;
+        padding-right: 28px;
+        padding-left: 28px;
+    }
+/*-----------------------------------Xp--------------------------------------------------*/
+.textr{
+    text-align: left;
+    line-height: 20px;
+}
+.boxxp{
+    align-items:center;
+    margin: 70px;
+}
+.padtext{
+    max-width: 90px;
+}
+.mobileXP{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-right:18px;
+}
+.mobile{
+    flex-direction: column;
+}
+.XPboxl{
+    align-items: flex-start;
+    flex-direction: row;
+    text-align: right;
+    width: 350px;
+    height: 19px;
+    margin: 0px;
+}
+.XPboxm{
+    display: none;
+}
+.XPboxr{
+    padding-left:90px;
+    max-width: 220px;
+}
+.textl{
+    width: 262px;
+}
+/*-----------------------------------Skill--------------------------------------------------*/
+    .allboxskill{
+        padding: 0px 0px;
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .allboxskill{
+        width:95%;
+    }
+/*-----------------------------------Education--------------------------------------------------*/
+.boxedu{
+    flex-direction: column;
+    height: 100%;
+    width: 350px;
+}
+.allboxedu{
+    padding: 70px 40px;
+    padding-bottom: 10px;
+
+}
+.vide{
+    height: 85px;
+}
+/*-----------------------------------Project--------------------------------------------------*/
+    .allboxp{
+       padding: 70px 0px;
+    }
+/*-----------------------------------Contact me--------------------------------------------------*/
+    .allboxcontact{
+        max-width: 350px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    select.civ{
+        max-width:350px;
+    }
+    .grid3nom{
+        grid-column: 90/101;
+        margin-left: 40px;
+    }
+    .grid3civ{
+        grid-column: 90/101;
+        margin-left: 40px;
+    }
+    .grid3{
+        grid-column: 90/101;
+        margin-left: 38px;
+    }
+    #civbox{
+        max-width: 350px;
+    }
+/*-----------------------------------Footer--------------------------------------------------*/
+    footer{height: 389px;}
+}

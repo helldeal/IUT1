@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EditionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-11T15:38:20" hostname="U-INF-J-E114-02" time="0.02">
+  <properties/>
+  <testcase name="isbn10_ko()" classname="EditionTest" time="0.013"/>
+  <testcase name="isbn13_ko()" classname="EditionTest" time="0.002"/>
+  <testcase name="isbn13_ok()" classname="EditionTest" time="0.002"/>
+  <testcase name="isbn1O_ok()" classname="EditionTest" time="0.001"/>
+  <testcase name="isbn_ko()" classname="EditionTest" time="0.0"/>
+  <system-out><![CDATA[278
+196
+121
+118
+119
+120
+120
+100
+264
+275
+198
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

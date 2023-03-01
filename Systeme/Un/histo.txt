@@ -1,0 +1,944 @@
+pwd
+mkdir Tremplin
+ls
+mktxt App
+echo bonjour
+echobonjour memoShell.txt
+echo bonjour memoShell.txt
+echo bonjour < memoShell.txt
+echo bonjour > memoShell.txt
+cat 
+echo bonjour >/Tremplin memoShell.txt
+cat memoShell.txt
+more memoShell.txt
+cat
+cat memoShell.txt
+ls Terminal
+cat memoShell.txt
+cat Tremplin/ memoShell.txt
+cat Tremplin/memoShell.txt
+echo bonjour Tremplin/sb.txt
+cat Tremplin/sb.txt
+echo bonjour > Tremplin/sb.txt
+mv 
+--help
+mv --help
+mv Tremplin/memoShell.txt -t Tremplin
+man ls
+ls -l Tremplin
+ls -c Tremplin
+ls -a Tremplin
+cd ~
+cd~
+pwd
+cd
+pwd
+cd ~ Tremplin
+cd Tremplin
+pwd
+cd ~
+pwd
+cd Tremplin
+pwd
+pwd ~
+pwd d
+pwd \Tremplin
+ls
+ls Tremplin
+ls \home
+ls /perso
+mv memoShell.txt \memoShell.txt
+cd ~
+mv Tremplin/memoShell.txt memoShell.txt
+mv memoShell.txt Tremplin/memoShell.txt
+cd Teemplin
+cd Tremplin
+cat memoSHell.txt
+cat memoShell.txt
+mv memoShell.txt ./memoShell.txt
+mv memoShell.txt ./../memoShell.txt
+mv ./../memoShell.txtmemoShell.txt
+mv ./../memoShell.txt memoShell.txt
+ls -a
+ls -l
+cd ~
+mkdir trav
+ls
+mkdir trav
+ls
+cd 
+mkdir monrep
+mkdir monrep/sousrep
+ls
+ls monrep
+mkdir monrep/sousrep1
+mkdir /home/E214194U/trav/monrep/sousrep1
+mkdir /home/E214194U/trav/monrep/sousrep2
+mkdir monrep/sousrep/prive
+mkdir /home/E214194U/trav/monrep/sousrep/jeux
+tree
+cd monrep
+../../Tremplin/fichierTexte.txt
+cp ../../Tremplin/fichierTexte.txt
+cp ./../../Tremplin/fichierTexte.txt
+cp ../trav../Tremplin/fichierTexte.txt
+cp ../trav..//Tremplin/fichierTexte.txt
+cp ../trav.././Tremplin/fichierTexte.txt
+cp ../trav../~/Tremplin/fichierTexte.txt
+cp ../trav../E214194U/Tremplin/fichierTexte.txt
+ls ../trav../E214194U/Tremplin
+ls ../trav/../E214194U/Tremplin
+ls ./../trav/../E214194U/Tremplin
+ls ./../trav
+ls ../trav
+cd ../monrep/sousrep
+cd ../
+ls ./..//../E214194U/Tremplin
+ls ./../../E214194U/Tremplin
+ls ./../../Tremplin
+cp ./../../Tremplin/fichierTexte.txt
+cp ./../../Tremplin/fichierTexte.txt sousrep/prive
+cp ./../../Tremplin/fichierTexte.txt sousrep/prive/fichierTexte.txt
+cp ./../../Tremplin/fichierTexte.txt sousrep/prive
+cd sousrep1
+cp ../sousrep/prive/fichierTexte.txt ../sousrep/prive/fichierTexte.txt2
+cd ../sousrep2
+mv ../sourep ./
+mv ../sousrep ./
+tree ../
+cd ../
+mv sousrep2/sousrep/prive sousrep1
+ls
+tree
+clear
+tree
+-r
+rm -r
+rm --help
+clear
+tree
+ls sourep
+ls sousrep
+ls sousrep1
+ls sousrep2
+/cd sousrep2/sousrep/jeux
+/cd sousrep2/sousrep
+/cd sousrep2
+/cd sousrep
+/cd ./sourep2
+cd sousrep2/sousrep/jeux
+mkdir 1
+mkdir 2
+mkdir 3
+mkdir 4
+echo > 1/1.1.txt
+echo > 1/1.2.txt
+echo > 1/1.3.txt
+echo > 1/1.4.txt
+clea
+clear
+cp 1 2
+cp-r 1 2
+cp -r 1 2
+cp --help
+cp -R 1 2
+cp 1/ 2
+cp -r 1/ 2
+cp -r 1/./ 2
+cp -r 1/./ 2/2
+cp -r 1/./ 2
+scipt
+script
+cd trav/monrep/sousrep2/sousrep/jeux
+wc 1/1.1.txt
+wc -l 1/1.1.txt
+tree
+mv 1/./ 2/1..txt
+cp -r 1/./ 2/1..txt
+cp -r 1/./ 2/1.txt
+cp -r 1/./ 2/./
+scipt
+script
+for i < 10
+for i <= 10
+for i  10
+for i;d
+cd ~
+cp -r Tremplin reseau/Perso
+cd reseau/Perso
+cd Tremplin/trav/monrep/sousrep/sousrep2/jeux
+cd Tremplin/trav/monrep/sousrep2/sousrep/jeux
+tree
+cp -r 1/ 2
+cd reseau/Perso/dev/source
+cd reseau/Perso/dev/Go app/Source
+cd reseau/Perso/dev/Go/Source
+cd /home/E214194U/reseau/Perso/dev/Go/Source
+cd /home/E214194U/réseau/Perso/dev/Go/Source
+cd /home/E214194U/réseau/Perso
+cd reseau
+cd Perso
+cd dev
+cd Dev
+cd Go/Source
+cd Go/source
+run home.go
+go run hello.go
+go run vars.go
+go run vars2.go
+go run vars.go
+go run vars2.go
+go run hello.go
+go run calcul.go
+go run test.go
+go run tabs.go
+go run tabs2.go
+go run tabs3.go
+go run for.go
+go run for2.go
+go run for.go
+go run for2.go
+go run for.go
+go run for2.go
+go run float.go
+go run for2.go
+go run float.go
+cd reseau
+cd Perso/Dev/Go/Source
+cd Perso/Dev/Go/source
+go run float.go
+go run for.go
+go run for3.go
+go run anais.go
+cd reseau/Perso/dev/Go/Source
+cd reseau/Perso/dev/Go/source
+cd reseau/Perso/Dev/Go/source
+go run anais.go
+go run if.go
+go run if2.go
+go run break.go
+go run float.go
+go run break.go
+go run if3.go
+go run switch.go
+go run if3.go
+go run func.go
+go run func2.go
+go run func3.go
+cd Perso/Dev/Go/source
+cd reseau/Perso/Dev/Go/source
+go run func3.go
+go run xn<e.go
+go run xne.go
+cd reseau/Perso/Dev/Go/source
+go run xne.go
+go run func2.go
+go run mod.go
+go run func2.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+go run comu.go
+cd reseau/Perso/Dev/Go/source
+go run comu.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+cd reseau Perso Dev Python
+cd reseau/Perso/Dev/Python
+run py 1.py
+py run 1.py
+python3
+python3 1.py
+python3 tutorial.py
+python3 1.py
+python3 tutorial.py
+cd reseau/Perso/Dev/Go/source
+go run func3.go
+go run func2.go
+go run com.go
+cd reseau/Perso/Dev/Go/source
+go run com.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+go run xne.go
+go run func2.go
+go run xne.go
+cd reseau/Perso/Dev/Go/source
+go run xne.go
+÷¹
+go run xne.go
+cd reseau/Perso/Dev/Go/source
+go run xne.go
+cd reseau/Perso/Dev/Go/source
+go run xne.go
+cd reseau/Perso/Dev/Go/source
+go run xne.go
+go run func2.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+cd reseau/Perso/Dev/Go/source
+go run func2.go
+go run xne.go
+go run xne.g
+go run xne.go
+cd reseau/Perso/Dev/Go/source
+go run xne.go
+4
+go run xne.go
+go run test2.go
+go run pointeur.go
+go run pointeurs.go
+cd reseau/Perso/Dev/Python
+python 3
+python3
+python3 1.py
+cd reseau/Perso/Dev/Go/source/
+go run test2.go
+go run slice8.go
+cd reseau/Perso/Dev/Go/source/
+go run slice9.go
+go run test2.go
+go run tabtab.go
+go build tabtab.go 
+./tabtab 
+./tabtab 12
+./12 tabtab 
+./tabtab 12 ge 
+go run func2.go
+go build args.go 
+./args 12 
+go run args.go
+./args 12 
+./args 12 
+go build args.go 
+./args 12 
+go build args.go 
+./args 12 
+go run flag.go
+cd reseau/Perso/Dev/Go/source/
+cd ../
+cd Python
+ 
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Python/
+python3 arithmetique.py 
+cd reseau/Perso/Dev/Go/source/
+go build args.go 
+./args 12 
+cd ../
+cdsrc
+go run create.go 
+go run write.go 
+cd ../../../../
+cd ../
+cd SSD
+cd /home/E214194U/SSD
+cd /home/E214194U/
+cd /home/SSD
+cd /media/
+cd /SSD
+cd /E214194U/SSD
+cd /E214194U/
+cd E214194U
+cd SSD
+cd Mon pc
+cd Mon\ pc
+cd Local
+cd osu!
+run osu.exe
+.\ osu.exe
+.\osu.exe
+.\osu
+./osu.exe
+./osu!
+cd /home/E214194U/reseau/Perso/Dev/Go/src
+go run write.go 
+./args 12 
+..:
+../
+..cd ../
+cd ../
+cd source
+./args 12 
+cd ../
+cd src
+go build write.go 
+./write 12
+go build write.go 
+./write 4
+go build write.go 
+./write 4
+go build write.go 
+./write 4
+go build write.go 
+./write 4
+./write 6
+./write 4
+go build write.go 
+./write 6
+cd /home/E214194U/reseau/Perso/Dev/Go/src
+./write 6
+go build write.go 
+./write 6
+cd /home/E214194U/reseau/Perso/Dev/Go/src
+./write 6
+go run readfile.go 
+go run sc
+go run fscanln.go 
+cd /home/E214194U/reseau/Perso/Dev/Go/source
+go run tabtab.go
+cd /home/E214194U/reseau/Perso/Dev/Go/src
+go run fscanln.go 
+cd /home/E214194U/reseau/Perso/Dev/Go/src
+go run fscanln.go 
+go run bufio.go 
+$ java -jar Logisim-ITA.jar
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Archi
+java -jar Logisim-ITA.jar
+java -jar Logisim-ITA.jar
+disown %1
+disown %2
+jobs
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Go/sr
+cd reseau/Perso/Go/src
+cd reseau/Perso/Dev/Go/src
+go run bufio.go
+go run juste.go
+cd reseau/Perso/Dev/Go/src
+go run juste.go
+cd reseau/Perso/Dev/Go/src
+./bufio.go Sonia
+cd reseau/Perso/Dev/Go/src
+go run juste.go
+go run bufio.go
+go run juste.go
+go run bufio.go
+go build bufio.go
+./ bufio.go Sonia
+.\ bufio.go Sonia
+./bufio.go Sonia
+./bufio.go
+go build bufio.go
+go run bufio.go
+go build bufio.go
+./bufio.go Sonia
+./bufio.go "Sonia"
+./bufio.go 
+go run bufio.go
+cd reseau/Perso/Dev/Go/src
+go build bufio.go
+./bufio.go Sonia
+./bufio Sonia
+./bufio Claire
+go build bufio.go
+./bufio Claire
+go build bufio.go
+./bufio Claire
+go build bufio.go
+./bufio Claire
+go build bufio.go
+./bufio Claire
+go build bufio.go
+./bufio Claire
+go build bufio.go
+./bufio Claire
+go build bufio.go
+./bufio Claire
+./bufio René
+cd reseau/Perso/Dev/Go/gitdev/basiques/facteurspremiers/
+go run facteurspremiers_test.go 
+go run facteurspremiers\_test.go 
+go run facteurspremiers\ test.go 
+go run facteurspremiers_test.go 
+cd ..cd ..\
+cd reseau/Perso/Dev/Go/gitdev/basiques/ensemble/
+go run ensemble.go
+go run ensemble_test.go
+go test ensemble.go
+go test ensemble_test.go
+go test ensemble.go
+go test ensemble_test.go
+go test
+cd reseau/Perso/Dev/Python
+python3 arithmetique.py
+python3 ensemble.py 
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Archi
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Archi
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Dev/Python
+python3 ensemble.py 
+cd reseau/Perso/Dev/Go/gitdev/basiques/ensemble/
+go test ensemble.go
+go test ensemble_test.go
+go test ensemble.go
+go test ensemble
+cd reseau/Perso/Dev/Go/gitdev/basiques/facteurspremier
+cd ../
+cd facteurspremiers/
+go test facteurspremiers
+cd reseau/Perso/Dev/Go/gitdev/basiques/facteurspremiers
+go test facteurspremiers
+cd reseau/Perso/Dev/Go/gitdev/basiques/facteurspremiers
+go test facteurspremiers
+cd reseau/Perso/Dev/Go/gitdev/basiques/facteurspremiers
+cd ../
+cd factorielle/
+go test factorielle
+go test
+cd reseau/Perso/Dev/Go/gitdev/basiques/factorielle/
+go test
+cd reseau/Perso/Dev/Go/gitdev/basiques/factorielle/
+go test
+cd reseau/Perso/Dev/Go/gitdev/basiques/factorielle/
+go test
+cd reseau/Perso/Dev/Go/gitdev/basiques/monnaie
+go test
+cd reseau/Perso/Dev/Go/TD1
+go mod init Recherche
+cat go.mod
+go mod init Recherche
+ls
+cat go.mod
+cd RechElt/
+go run testRechElt.go 
+cd RechElt/
+go run testRechElt.go 
+cd RechElt/
+go run testRechElt.go 
+cd RechElt/
+go run testRechElt.go 
+cd RechElt/
+go run testRechElt.go 
+cd RechElt/
+go run testRechElt.go 
+cd RechElt/
+go run testRechElt.go 
+cd RechElt/
+go run testRechElt.go 
+go test
+go test RechElt
+go test
+ls
+go test
+cd ./
+cd ../
+cd RechMin/
+go test
+cd reseau/Perso/Dev/Go/TD1/
+mkdir module1
+cd module1/
+go mod init module1
+cat module1
+cat go.mod
+cd ..
+mkdir module2
+dc module2
+cd module2
+go mod init module2
+cd ..
+cd module1
+cd ..
+cd module2
+go build test.go
+cat go.mod
+go build test.go
+go mod tidy
+go build test.go
+go run test.go
+cd reseau/Perso/Dev/Go/TD1/
+cd module2
+go run test.go
+cd ../..
+cd gitdev/recherche/
+cd matrice/
+go test matrice
+cd ..
+cd maxoccurrences/
+go test
+cd maxoccurrences/
+go test
+cd reseau/Perso/Archi
+java -jar Logisim-ITA.jar
+python3 ensemble.py 
+cd reseau/Perso/Dev/Python/
+python3 ensemble.py 
+python3 inclusion.py 
+python3 ensembleP.py 
+python3 inclusion.py 
+python3 ensembleP.py 
+python3 inclusion.py 
+python3 ensembleP.py 
+cd reseau/Perso/Dev/Python/
+python3 ensembleP.py 
+python3 1.py 
+cd reseau/Perso/Dev/Python/
+python3 1.py 
+time python3 1.py 
+go test
+cd RechElt/
+go test
+cd ..
+cd RechMin/
+go test
+cd ..
+cd SelecElt/
+g test
+go test
+cd ..
+cd RechMin/
+go test -cover
+cd ..
+cd SelecElt/
+cd ..
+cd RechElt/
+go test -cover
+go test
+cd reseau/Perso/Dev/Go/TD1/Recherche/RechElt/
+go test
+cd ..
+go mod
+go mod Recherche
+cat go.mod
+cd RechElt/
+go test
+go mod RechElt
+go help mod
+go mod init RechElt
+go test
+go mod init RechElt
+go test
+cd ..
+cd RechMin/
+go test
+cd ..
+go test
+cd RechElt
+go test
+cd ../.;
+cd ../../
+cd gitdev/basiques/ensemble/
+go test
+cd ../../
+cd ../
+cd TD1/Recherche/RechElt/
+go test
+cd ..
+RechMin/
+cd RechMin/
+go test
+cd reseau/Perso/Dev/Go/gitdev/recherche/nombrespremiers
+go test
+cd ..
+cd nombrespremiers2
+go test
+cd ..
+cd occurrences
+go test
+cd RechDicho/
+go test
+cd RechDicho/
+go test
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Archi/
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Go/TD2/tri
+cd reseau/Perso/Dev/Go/TD2/tri
+go mod init tri
+cd insertion/
+go test
+go test
+cd ../../..
+cd TD1/Recherche/RechElt/
+go test
+cd ../../..
+cd TD2/tri/Insertion/
+go test
+cd ..
+go mod init Insertion/
+go test
+cd Insertion/
+go test
+cd reseau/Perso/Dev/Go/TD2/tri/Insertion/
+go test
+cd execice9
+cd exercice9
+go test
+cd reseau/Perso/Dev/Go/gitdev/recursivite/chainesbinaires/
+go test
+.
+cd ..
+cd palindrome/
+go test
+cd ../../..
+cd src
+cd ..
+cd source
+go run slice.go
+go run slice2.go
+cd ..
+cd gitdev/recursivite/palindrome/
+go test
+go test -cover
+go test _tim
+go test -time
+time go test
+cd gitdev/recursivite/palindrome/
+cd reseau/Perso/Dev/Go/gitdev/recursivite/palindrome/
+time go test
+cd reseau/Perso/Dev/Go/gitdev/recursivite/palindrome/
+time go test
+cd reseau/Perso/Dev/Go/gitdev/recursivite/palindrome/
+time go test
+cd reseau/Perso/Dev/Go/gitdev/recursivite/palindrome/
+time go test
+cd reseau/Perso/Dev/Go/gitdev/recursivite/palindrome/
+time go test
+xd -pasbon
+cd -pasbon
+cd -p
+--help
+-help
+cd reseau/Perso/
+--help
+cd -p
+help
+date
+apropos 
+date
+apropos date
+apropos Epoch
+date
+man
+man datae
+man date
+date
+man date
+date -R, --rfc-email
+date -R, -rfc-email
+
+date -R --rfc
+date -R --rfc-email 
+date --R --rfc-email 
+date -R --rfc- 
+date --R '--rfc-email' 
+date -R '--rfc-email' 
+man date
+date -R '--rfc-3339' 
+date -R --rfc-3339
+date -R --rfc-email 
+man date
+date -R --rfc-3339=FMT
+man date
+type --help
+man date
+date %d %B %Y
+date +"%d %B %Y"
+date
+date +"%d %B %Y"
+date +"%d %b %y"
+date +"%d %B %Y"
+apropos cal
+apropos calendar
+cal (1)
+cal
+cal (mars)
+man cal
+cal -e
+cal --e
+cal e
+man cal
+cal
+ncal
+cal 1
+ncal 1
+cal e
+cal 2
+cal 3
+cal -e
+ncal -e
+cd
+ls
+cd reseau/Perso/
+ls
+mkdir System
+mkdir Systeme
+rmdir System
+ls
+touch Systeme/
+cd
+cd TP1
+ls vous
+ls home
+ls ~
+cd reseau/Perso/
+ls ~
+ls reseau
+ls ~reseau
+ls Perso
+cd
+ls reseau 
+ls ~reseau
+pwd
+cd /Home
+cd /home
+ls
+tree
+cd ../
+tree
+pwd
+tree
+ls Perso
+ls reseau
+cd reseau/Perso/
+ls /
+cd reseau/Perso/Dev/Go/TD2/Tri/inse
+cd reseau/Perso/Dev/Go/TD2/Tri
+cd reseau/Perso/Dev/Go/TD2/tri
+cd Insertion/
+go test
+cd reseau/Perso/Systeme/
+apropos texte
+apropos txt
+apropos fichier
+ls ~reseau
+ls reseau
+cd
+ls
+cd reseau/Perso/Systeme/
+mkdir Un
+mkf
+mk
+apropos mk
+echo >Un/1.txt
+cd un
+cd Un
+mkdir ../Deux
+echo >../Deux/1.txt
+rm ../Deux
+rmdir ../Deux
+rm ../Deux/1.txt
+rmdir ../Deux
+rm ../Deux/1.txt
+rmdir ../Deux
+rm --help
+rmdir --help
+cd ../
+id
+uid
+id
+ls -l
+ls
+chmod
+chmod --hrlp
+chmod --help
+cd Un
+ls -l
+chmod 1.txt
+chmod 1.txt -c
+chmod 1.txt -v
+chmod -v 1.txt 
+chmod u/g/o -v 1.txt 
+chmod +/+/+ -v 1.txt 
+chmod -/-/- -v 1.txt 
+chmod -/-/- 1.txt 
+chmod 750 1.txt 
+chmod a-x 1.txt 
+chmod -v 1.txt 
+chmod a 1.txt 
+chmod 750 1.txt 
+chmod a-x 1.txt 
+chown
+chown --help
+
+chmod a-x 1.txt 
+chmod 755 1.txt 
+chmod a-x 1.txt 
+chmod 755 1.txt 
+chmod 000 1.txt 
+chmod 755 1.txt 
+id
+./cmd.sh 
+chmod 000 cmd.sh 
+./cmd.sh 
+chmod 770 cmd.sh 
+./cmd.sh 
+cd reseau/Perso/Archi/
+java -jar Logisim-ITA.jar
+cd reseau/Perso/Dev/Go/TD2/tri/Insertion/
+go test
+cd ../..
+cd ..
+cd src3
+go run struct
+go run struct.go
+go run struct2.go
+go run struct3.go
+go run methode.go
+go run methode2.go
+go run etu.go
+go run methode.go 
+go run etu.go
+go run interface.go 
+go run etu.go
+python3 fct.py
+cd reseau/Perso/Dev/Go/gitdev/tri/
+go test
+cd bienrange/
+go test
+cd ../decroissant/
+go test
+cd ../valabs/
+go test
+cd ../alphabetique/
+go test
+cd ../valabs/
+go test
+time go test
+cd ../alphabetique/
+go test
+man cal
+motif
+motif z
+motif z go
+ncal -e 5
+history
+man history
+man bash
+hisoty --help
+history --help
+cd reseau/Perso/Systeme/
+history Un/histo.txt
+Un/histo.txt
+history a Un/histo.txt
+history -a Un/histo.txt
+~/.bash_history
+bash_history
+.bash_history
+/.bash_history
+Un/.bash_history
+history
+man bash
+history -w Un/histo.txt

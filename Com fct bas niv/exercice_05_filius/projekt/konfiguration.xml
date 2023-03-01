@@ -1,0 +1,2032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.13" class="java.beans.XMLDecoder">
+ <string>Filius version: 1.13.2 (29.01.2022)</string>
+ <object class="java.util.LinkedList">
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem0">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton" id="JSidebarButton0">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle0">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle0"/>
+          <int>155</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle0"/>
+          <int>188</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle0"/>
+          <int>73</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle0"/>
+          <int>72</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/switch.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>Switch1.1</string>
+      </void>
+      <void property="typ">
+       <string>Switch</string>
+      </void>
+      <void id="Boolean0" method="isEnabled"/>
+      <void id="Integer0" property="verticalTextPosition"/>
+      <void id="Integer1" property="iconTextGap"/>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Switch" id="Switch0">
+      <void property="name">
+       <string>Switch1.1</string>
+      </void>
+      <void id="LinkedList0" property="anschluesse">
+       <void id="Port0" index="0"/>
+       <void id="Port1" index="1"/>
+       <void id="Port2" index="2"/>
+       <void id="Port3" index="3"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem1">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle1">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle1"/>
+          <int>294</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle1"/>
+          <int>187</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle1"/>
+          <int>73</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle1"/>
+          <int>72</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/switch.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>Switch1.2</string>
+      </void>
+      <void property="typ">
+       <string>Switch</string>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Switch" id="Switch1">
+      <void property="name">
+       <string>Switch1.2</string>
+      </void>
+      <void id="LinkedList1" property="anschluesse">
+       <void id="Port4" index="0"/>
+       <void id="Port5" index="1"/>
+       <void id="Port6" index="2"/>
+       <void id="Port7" index="3"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem2">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle2">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle2"/>
+          <int>554</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle2"/>
+          <int>185</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle2"/>
+          <int>70</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle2"/>
+          <int>72</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/switch.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>Switch3</string>
+      </void>
+      <void property="typ">
+       <string>Switch</string>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Switch" id="Switch2">
+      <void property="name">
+       <string>Switch3</string>
+      </void>
+      <void id="LinkedList2" property="anschluesse">
+       <void id="Port8" index="0"/>
+       <void id="Port9" index="1"/>
+       <void id="Port10" index="2"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem3">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle3">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle3"/>
+          <int>421</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle3"/>
+          <int>188</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle3"/>
+          <int>77</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle3"/>
+          <int>78</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/router.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>Routeur</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.1.254 / 255.255.255.0 (E7:EF:77:42:00:15)
+ 192.168.2.254 / 255.255.255.0 (34:73:F5:19:6B:56)
+ 192.168.3.254 / 255.255.255.0 (11:82:7C:E5:78:BD)
+Passerelle: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Routeur</string>
+      </void>
+      <void method="addMouseListener">
+       <object class="javax.swing.ToolTipManager" id="ToolTipManager0" method="sharedInstance"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Vermittlungsrechner" id="Vermittlungsrechner0">
+      <void id="LinkedList3" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface0" index="0">
+        <void property="ip">
+         <string>192.168.1.254</string>
+        </void>
+        <void property="mac">
+         <string>E7:EF:77:42:00:15</string>
+        </void>
+        <void id="Port11" property="port"/>
+       </void>
+       <void method="add">
+        <object class="filius.hardware.NetzwerkInterface" id="NetzwerkInterface1">
+         <void property="ip">
+          <string>192.168.2.254</string>
+         </void>
+         <void property="mac">
+          <string>34:73:F5:19:6B:56</string>
+         </void>
+         <void id="Port12" property="port"/>
+        </object>
+       </void>
+       <void method="add">
+        <object class="filius.hardware.NetzwerkInterface" id="NetzwerkInterface2">
+         <void property="ip">
+          <string>192.168.3.254</string>
+         </void>
+         <void property="mac">
+          <string>11:82:7C:E5:78:BD</string>
+         </void>
+         <void id="Port13" property="port"/>
+        </object>
+       </void>
+      </void>
+      <void id="VermittlungsrechnerBetriebssystem0" property="systemSoftware">
+       <void id="HashMap0" property="installierteAnwendungen">
+        <void id="WebServer0" method="get">
+         <string>filius.software.www.WebServer</string>
+         <void property="aktiv">
+          <object idref="Boolean0"/>
+         </void>
+         <void property="name">
+          <string>Thread-58</string>
+         </void>
+         <void id="HashMap1" property="plugins">
+          <void id="FirewallWebKonfig0" method="get">
+           <string>konfig</string>
+           <void property="firewall">
+            <void property="name">
+             <string>Thread-57</string>
+            </void>
+           </void>
+          </void>
+         </void>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem4">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle4">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle4"/>
+          <int>39</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle4"/>
+          <int>171</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle4"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle4"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.1.1</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.1.1 / 255.255.255.0 (F6:D0:04:B3:54:A0)
+Passerelle: 192.168.1.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner0">
+      <void property="name">
+       <string>192.168.1.1</string>
+      </void>
+      <void id="LinkedList4" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface3" index="0">
+        <void property="gateway">
+         <string>192.168.1.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.1.1</string>
+        </void>
+        <void property="mac">
+         <string>F6:D0:04:B3:54:A0</string>
+        </void>
+        <void id="Port14" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem0" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-64</string>
+        </void>
+       </void>
+       <void id="Dateisystem0" property="dateisystem">
+        <void id="DefaultMutableTreeNode0" property="arbeitsVerzeichnis"/>
+       </void>
+       <void property="installierteAnwendungen">
+        <void method="put">
+         <string>filius.software.lokal.Terminal</string>
+         <object class="filius.software.lokal.Terminal">
+          <void property="aktuellerOrdner">
+           <object idref="DefaultMutableTreeNode0"/>
+          </void>
+          <void property="name">
+           <string>Thread-567</string>
+          </void>
+          <void property="systemSoftware">
+           <object idref="Betriebssystem0"/>
+          </void>
+         </object>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem5">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle5">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle5"/>
+          <int>154</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle5"/>
+          <int>61</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle5"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle5"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.1.2</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.1.2 / 255.255.255.0 (31:D6:52:AB:4E:F4)
+Passerelle: 192.168.1.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner1">
+      <void property="name">
+       <string>192.168.1.2</string>
+      </void>
+      <void id="LinkedList5" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface4" index="0">
+        <void property="gateway">
+         <string>192.168.1.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.1.2</string>
+        </void>
+        <void property="mac">
+         <string>31:D6:52:AB:4E:F4</string>
+        </void>
+        <void id="Port15" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem1" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-66</string>
+        </void>
+       </void>
+       <void id="Dateisystem1" property="dateisystem">
+        <void id="DefaultMutableTreeNode1" property="arbeitsVerzeichnis"/>
+       </void>
+       <void property="installierteAnwendungen">
+        <void method="put">
+         <string>filius.software.lokal.Terminal</string>
+         <object class="filius.software.lokal.Terminal">
+          <void property="aktuellerOrdner">
+           <object idref="DefaultMutableTreeNode1"/>
+          </void>
+          <void property="name">
+           <string>Thread-568</string>
+          </void>
+          <void property="systemSoftware">
+           <object idref="Betriebssystem1"/>
+          </void>
+         </object>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem6">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle6">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle6"/>
+          <int>294</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle6"/>
+          <int>58</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle6"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle6"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.1.4</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.1.4 / 255.255.255.0 (95:AC:67:4D:5C:5C)
+Passerelle: 192.168.1.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner2">
+      <void property="name">
+       <string>192.168.1.4</string>
+      </void>
+      <void id="LinkedList6" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface5" index="0">
+        <void property="gateway">
+         <string>192.168.1.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.1.4</string>
+        </void>
+        <void property="mac">
+         <string>95:AC:67:4D:5C:5C</string>
+        </void>
+        <void id="Port16" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem2" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-68</string>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem7">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle7">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle7"/>
+          <int>547</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle7"/>
+          <int>44</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle7"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle7"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.3.1</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.3.1 / 255.255.255.0 (43:E9:50:86:35:5E)
+Passerelle: 192.168.3.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner3">
+      <void property="name">
+       <string>192.168.3.1</string>
+      </void>
+      <void id="LinkedList7" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface6" index="0">
+        <void property="gateway">
+         <string>192.168.3.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.3.1</string>
+        </void>
+        <void property="mac">
+         <string>43:E9:50:86:35:5E</string>
+        </void>
+        <void id="Port17" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem3" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-70</string>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem8">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle8">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle8"/>
+          <int>146</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle8"/>
+          <int>278</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle8"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle8"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.1.3</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.1.3 / 255.255.255.0 (65:E1:17:55:FC:87)
+Passerelle: 192.168.1.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner4">
+      <void property="name">
+       <string>192.168.1.3</string>
+      </void>
+      <void id="LinkedList8" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface7" index="0">
+        <void property="gateway">
+         <string>192.168.1.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.1.3</string>
+        </void>
+        <void property="mac">
+         <string>65:E1:17:55:FC:87</string>
+        </void>
+        <void id="Port18" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem4" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-72</string>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem9">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle9">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle9"/>
+          <int>286</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle9"/>
+          <int>291</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle9"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle9"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.1.5</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.1.5 / 255.255.255.0 (70:9F:78:B2:29:7F)
+Passerelle: 192.168.1.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner5">
+      <void property="name">
+       <string>192.168.1.5</string>
+      </void>
+      <void id="LinkedList9" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface8" index="0">
+        <void property="gateway">
+         <string>192.168.1.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.1.5</string>
+        </void>
+        <void property="mac">
+         <string>70:9F:78:B2:29:7F</string>
+        </void>
+        <void id="Port19" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem5" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-74</string>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem10">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle10">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle10"/>
+          <int>423</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle10"/>
+          <int>297</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle10"/>
+          <int>70</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle10"/>
+          <int>72</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/switch.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>Switch2</string>
+      </void>
+      <void property="typ">
+       <string>Switch</string>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Switch" id="Switch3">
+      <void property="name">
+       <string>Switch2</string>
+      </void>
+      <void id="LinkedList10" property="anschluesse">
+       <void id="Port20" index="0"/>
+       <void id="Port21" index="1"/>
+       <void id="Port22" index="2"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem11">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle11">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle11"/>
+          <int>416</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle11"/>
+          <int>397</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle11"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle11"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.2.1</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.2.1 / 255.255.255.0 (C2:7F:97:3A:26:C2)
+Passerelle: 192.168.2.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner6">
+      <void property="name">
+       <string>192.168.2.1</string>
+      </void>
+      <void id="LinkedList11" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface9" index="0">
+        <void property="gateway">
+         <string>192.168.2.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.2.1</string>
+        </void>
+        <void property="mac">
+         <string>C2:7F:97:3A:26:C2</string>
+        </void>
+        <void id="Port23" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem6" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-76</string>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem12">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle12">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle12"/>
+          <int>525</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle12"/>
+          <int>277</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle12"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle12"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.2.2</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.2.2 / 255.255.255.0 (2F:A6:39:3B:B7:5D)
+Passerelle: 192.168.2.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner7">
+      <void property="name">
+       <string>192.168.2.2</string>
+      </void>
+      <void id="LinkedList12" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface10" index="0">
+        <void property="gateway">
+         <string>192.168.2.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.2.2</string>
+        </void>
+        <void property="mac">
+         <string>2F:A6:39:3B:B7:5D</string>
+        </void>
+        <void id="Port24" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem7" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-78</string>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKnotenItem" id="GUIKnotenItem13">
+    <void property="imageLabel">
+     <object class="filius.gui.netzwerksicht.JSidebarButton">
+      <void property="bounds">
+       <object class="java.awt.Rectangle" id="Rectangle13">
+        <void class="java.awt.Rectangle" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Rectangle13"/>
+          <int>666</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Rectangle13"/>
+          <int>169</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>width</string>
+         <void method="set">
+          <object idref="Rectangle13"/>
+          <int>84</int>
+         </void>
+        </void>
+        <void class="java.awt.Rectangle" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Rectangle13"/>
+          <int>114</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="horizontalAlignment">
+       <object class="javax.swing.SwingConstants" field="CENTER"/>
+      </void>
+      <void property="icon">
+       <object class="javax.swing.ImageIcon">
+        <string>jar:file:/home/hernandez-n/Documents/teaching/2a.DUT.M4101C.Administration-des-Syst%c3%a8mes-et-des-R%c3%a9seaux/resources/simulateur-r%c3%a9seau-filius/filius-1.13.2/filius.jar!/gfx/hardware/server.png</string>
+       </object>
+      </void>
+      <void property="text">
+       <string>192.168.3.2</string>
+      </void>
+      <void property="toolTipText">
+       <string>&lt;html&gt;&lt;pre&gt;Adresse IP/masque (Adresse MAC):
+ 192.168.3.2 / 255.255.255.0 (BA:27:8E:BB:26:8A)
+Passerelle: 192.168.3.254
+Serveur DNS: &lt;/pre&gt;&lt;/html&gt;</string>
+      </void>
+      <void property="typ">
+       <string>Ordinateur</string>
+      </void>
+      <void method="addMouseListener">
+       <object idref="ToolTipManager0"/>
+      </void>
+     </object>
+    </void>
+    <void property="knoten">
+     <object class="filius.hardware.knoten.Rechner" id="Rechner8">
+      <void property="name">
+       <string>192.168.3.2</string>
+      </void>
+      <void id="LinkedList13" property="netzwerkInterfaces">
+       <void id="NetzwerkInterface11" index="0">
+        <void property="gateway">
+         <string>192.168.3.254</string>
+        </void>
+        <void property="ip">
+         <string>192.168.3.2</string>
+        </void>
+        <void property="mac">
+         <string>BA:27:8E:BB:26:8A</string>
+        </void>
+        <void id="Port25" property="port"/>
+       </void>
+      </void>
+      <void id="Betriebssystem8" property="systemSoftware">
+       <void property="DHCPServer">
+        <void property="name">
+         <string>Thread-80</string>
+        </void>
+       </void>
+       <void id="Dateisystem2" property="dateisystem">
+        <void id="DefaultMutableTreeNode2" property="arbeitsVerzeichnis"/>
+       </void>
+       <void property="installierteAnwendungen">
+        <void method="put">
+         <string>filius.software.lokal.Terminal</string>
+         <object class="filius.software.lokal.Terminal">
+          <void property="aktuellerOrdner">
+           <object idref="DefaultMutableTreeNode2"/>
+          </void>
+          <void property="name">
+           <string>Thread-750</string>
+          </void>
+          <void property="systemSoftware">
+           <object idref="Betriebssystem8"/>
+          </void>
+         </object>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="java.util.LinkedList">
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem0">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port14"/>
+        </void>
+        <void index="1">
+         <object idref="Port0"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle14">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle14"/>
+         <int>79</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle14"/>
+         <int>222</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle14"/>
+         <int>114</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle14"/>
+         <int>8</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem4"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem0"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem1">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port15"/>
+        </void>
+        <void index="1">
+         <object idref="Port1"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle15">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle15"/>
+         <int>189</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle15"/>
+         <int>116</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle15"/>
+         <int>9</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle15"/>
+         <int>110</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem5"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem0"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem2">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port18"/>
+        </void>
+        <void index="1">
+         <object idref="Port2"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle16">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle16"/>
+         <int>186</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle16"/>
+         <int>222</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle16"/>
+         <int>7</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle16"/>
+         <int>115</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem8"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem0"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem3">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port16"/>
+        </void>
+        <void index="1">
+         <object idref="Port4"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle17">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle17"/>
+         <int>328</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle17"/>
+         <int>113</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle17"/>
+         <int>10</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle17"/>
+         <int>112</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem6"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem1"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem4">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port19"/>
+        </void>
+        <void index="1">
+         <object idref="Port5"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle18">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle18"/>
+         <int>326</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle18"/>
+         <int>221</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle18"/>
+         <int>6</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle18"/>
+         <int>129</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem9"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem1"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem5">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port3"/>
+        </void>
+        <void index="1">
+         <object idref="Port6"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle19">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle19"/>
+         <int>189</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle19"/>
+         <int>221</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle19"/>
+         <int>143</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle19"/>
+         <int>5</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem0"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem1"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem6">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port7"/>
+        </void>
+        <void index="1">
+         <object idref="Port11"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle20">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle20"/>
+         <int>328</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle20"/>
+         <int>221</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle20"/>
+         <int>133</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle20"/>
+         <int>8</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem1"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem3"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem7">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port12"/>
+        </void>
+        <void index="1">
+         <object idref="Port20"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle21">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle21"/>
+         <int>456</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle21"/>
+         <int>225</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle21"/>
+         <int>5</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle21"/>
+         <int>110</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem3"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem10"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem8">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port21"/>
+        </void>
+        <void index="1">
+         <object idref="Port23"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle22">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle22"/>
+         <int>456</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle22"/>
+         <int>331</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle22"/>
+         <object idref="Integer1"/>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle22"/>
+         <int>125</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem10"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem11"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem9">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port22"/>
+        </void>
+        <void index="1">
+         <object idref="Port24"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle23">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle23"/>
+         <int>456</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle23"/>
+         <int>331</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle23"/>
+         <int>113</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle23"/>
+         <int>5</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem10"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem12"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem10">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port13"/>
+        </void>
+        <void index="1">
+         <object idref="Port8"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle24">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle24"/>
+         <int>457</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle24"/>
+         <int>219</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle24"/>
+         <int>134</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle24"/>
+         <int>10</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem3"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem2"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem11">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port9"/>
+        </void>
+        <void index="1">
+         <object idref="Port17"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle25">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle25"/>
+         <int>587</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle25"/>
+         <int>99</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle25"/>
+         <object idref="Integer1"/>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle25"/>
+         <int>124</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem2"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem7"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="filius.gui.netzwerksicht.GUIKabelItem" id="GUIKabelItem12">
+    <void property="dasKabel">
+     <object class="filius.hardware.Kabel">
+      <void property="anschluesse">
+       <array class="filius.hardware.Port" length="2">
+        <void index="0">
+         <object idref="Port10"/>
+        </void>
+        <void index="1">
+         <object idref="Port25"/>
+        </void>
+       </array>
+      </void>
+     </object>
+    </void>
+    <void property="kabelpanel">
+     <void property="bounds">
+      <object class="java.awt.Rectangle" id="Rectangle26">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle26"/>
+         <int>587</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle26"/>
+         <int>219</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle26"/>
+         <int>123</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle26"/>
+         <int>9</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="ziel1">
+      <object idref="GUIKnotenItem2"/>
+     </void>
+     <void property="ziel2">
+      <object idref="GUIKnotenItem13"/>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="java.util.ArrayList"/>
+</java>

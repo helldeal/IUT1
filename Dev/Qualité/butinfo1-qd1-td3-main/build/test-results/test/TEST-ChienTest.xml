@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChienTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-31T12:16:02" hostname="U-INF-J-E113-18" time="2.706">
+  <properties/>
+  <testcase name="ageMoisMock()" classname="ChienTest" time="2.688"/>
+  <testcase name="ageMois1()" classname="ChienTest" time="0.006"/>
+  <testcase name="ageMois2()" classname="ChienTest" time="0.006"/>
+  <testcase name="ageMois3()" classname="ChienTest" time="0.001"/>
+  <system-out><![CDATA[Date du jour : 2022-02-28
+Date du jour : 2022-01-01
+Date du jour : 2022-01-01
+Date du jour : 2022-01-01
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

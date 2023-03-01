@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "nom": "Lanoix",
+      "prenom": "Arnaud",
+      "age": 42,
+      "email": "arnaud.lanoix@univ-nantes.fr"
+    },
+    {
+      "nom": "Moore",
+      "prenom": "Madeleine",
+      "age": 35,
+      "email": "madeleine.moore@example.com"
+    },
+    {
+      "nom": "Daniels",
+      "prenom": "Ron",
+      "age": 49,
+      "email": "ron.daniels@example.com",
+      "adresse": {
+        "numero": 4354,
+        "nom": "Hickory Creek Dr",
+        "codepostal": 8736,
+        "ville": "Kalgoorlie"
+      }
+    }
+  ]
+}

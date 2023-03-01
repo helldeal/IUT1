@@ -1,0 +1,11 @@
+{
+    "matiere": "dev.objets",
+    "enseignants": [
+          { "nom": "Arnaud Lanoix", "email": "Arnaud.Lanoix@univ-nantes.fr" },
+          { "nom": "J-F Remm", "email": "Jean-François.Remm@univ-nantes.fr" },
+          { "nom": "J-F Berdjugin", "email": "Jean-François.Berdjugin@univ-nantes.fr" },
+          { "nom": "Christine Jacquin", "email": "Christine.Jacquin@univ-nantes.fr" },
+          { "nom": "Ali Benjilany", "email": "Ali.Benjilany@univ-nantes.fr" }
+        ],
+    "responsable": "Arnaud Lanoix"
+}

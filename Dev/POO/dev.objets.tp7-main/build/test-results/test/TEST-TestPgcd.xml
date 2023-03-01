@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPgcd" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-03-31T15:56:56" hostname="BEAST" time="0.038">
+  <properties/>
+  <testcase name="testPgcd2()" classname="TestPgcd" time="0.034"/>
+  <testcase name="testPgcd3()" classname="TestPgcd" time="0.001"/>
+  <testcase name="testPgcd()" classname="TestPgcd" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

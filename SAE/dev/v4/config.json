@@ -1,0 +1,18 @@
+{
+	"WindowTitle": "Project particles",
+	"WindowSizeX": 800,
+  	"WindowSizeY": 600,
+	"ParticleImage": "assets/particle.png",
+	"Debug": true,
+	"InitNumParticles": 100,
+	"RandomSpawn": false,
+	"SpawnX": 400,
+	"SpawnY": 300,
+	"SpawnRate":1,
+	"Vitesse":4,
+	"Rouge":1,
+	"Bleu":1,
+	"Vert":1,
+	"TailleX":1,
+	"TailleY":1
+}

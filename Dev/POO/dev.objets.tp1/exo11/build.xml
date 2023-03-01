@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="info1.dev.objets.tp" default="run" basedir=".">
+
+  <!-- definitions des dossiers et sources, test et build -->
+  <property file="local.properties" />
+
+  <!-- chemin par defaut vers les libraries Kotlin -->
+  <property name="kotlin.lib" location="/usr/lib" />
+  <!-- dessoier par defaut contenant les sources -->
+  <property name="src.dir" location="src" />
+  <!-- dossier par defaut contenant les builds -->
+  <property name="build.dir" location="bin" />
+  <property name="test.build.dir" location="${build.dir}/test" />
+  <!-- dossier par defaut contenant des libraries locales au projet -->
+  <property name="lib.dir" location="lib" />
+  <!-- dossier par defaut contenant des tests -->
+  <property name="test.src.dir" location="test" />
+  <!-- nom par defaut de l'archive jar -->
+  <property name="jarfile" value="info1-main" />
+
+<typedef resource="org/jetbrains/kotlin/ant/antlib.xml" classpath="${kotlin.lib}/kotlin-ant.jar"/>
+
+ <tstamp>
+    <format property="now" pattern="yyyy-MM-dd"/>
+</tstamp>
+
+<property name="target"  value="${build.dir}/${jarfile}-${now}.jar" />
+
+  <!-- construction du classpath -->
+  <path id="build.classpath">
+        <fileset dir="${lib.dir}">
+          <include name="*.jar" />
+          <exclude name="junit-platform-console-standalone-1.8.2.jar" />
+       </fileset>
+        <pathelement location="${build.dir}" />
+  </path>
+
+  <path id="test.classpath">
+      <fileset dir="${lib.dir}">
+          <include name="*.jar"/>
+      </fileset>
+      <pathelement location="${target}" />
+      <pathelement location="${test.build.dir}" />
+  </path>
+
+
+ 
+ <!-- effacement du dossier de build precedent -->
+  <target name="clean">
+    <delete dir="${build.dir}" />
+  </target>
+ 
+ <!-- creation  d un nouveau dossier de build -->
+  <target name="makedir">
+    <mkdir dir="${build.dir}" />
+    <mkdir dir="${test.build.dir}" />
+  </target>
+
+
+ <!-- compilation des sources kotlin -->
+  <target name="build" depends="makedir">
+    <kotlinc src="${src.dir}" output="${target}" includeRuntime="true">
+      <classpath refid="build.classpath"/>
+    </kotlinc>	
+  </target>
+ 
+ <!-- execution du fichier kotlin executable -->
+  <target name="run" depends="build">
+    <java jar="${target}" fork="true">
+    </java>
+  </target>
+
+ <!-- compilation des tests -->
+  <target name="test.build" depends="build">
+    <kotlinc src="${test.src.dir}" output="${test.build.dir}">
+    <classpath refid="test.classpath"/>
+    </kotlinc>	
+  </target>
+
+  <!-- execution des tests -->
+    <target name="test" depends="test.build">
+        <java classpathref="test.classpath" classname="org.junit.platform.console.ConsoleLauncher" fork="true" failonerror="false">
+            <arg value="--scan-classpath"/>
+            <arg line="--disable-banner"/>
+        </java>
+    </target>
+
+</project>
